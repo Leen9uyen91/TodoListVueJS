@@ -1,18 +1,19 @@
 <template>
   <div id="App">
+     <p>Đây là app vue đầu tiên của tôi</p>
      <HeaderItem />
-     <TodosBox />
   </div>
 </template>
 
 <script>
 
 import HeaderItem from "./components/Header.vue";
-import TodosBox from "./components/Todos.vue";
 
 export default {
   name: 'App',
-  components: { HeaderItem, TodosBox }
+  components: {
+     HeaderItem
+  }
 }
 </script>
 
@@ -21,6 +22,8 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
   color: #2c3e50;
+  margin-top: 60px;
 }
 </style>

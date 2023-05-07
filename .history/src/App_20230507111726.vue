@@ -1,18 +1,18 @@
 <template>
   <div id="App">
      <HeaderItem />
-     <TodosBox />
+     <TodosItem />
   </div>
 </template>
 
 <script>
 
 import HeaderItem from "./components/Header.vue";
-import TodosBox from "./components/Todos.vue";
+import TodosItem from "./components/Todos.vue";
 
 export default {
   name: 'App',
-  components: { HeaderItem, TodosBox }
+  components: { HeaderItem, TodosItem }
 }
 </script>
 
